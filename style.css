@@ -1,0 +1,121 @@
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.9724264705882353) 0%, rgba(136, 0, 0, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.title h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.round_score {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+div p {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.rounds h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+.rock img {
+    width: 300px;
+    padding: 50px;
+}
+
+.paper img {
+    width: 300px;
+    padding: 50px;
+}
+
+.scissors img {
+    width: 300px;
+    padding: 50px;
+}
+
+.rock:hover img {
+    cursor: pointer;
+    animation: rotation 1s infinite linear;
+}
+
+.paper:hover img {
+    cursor: pointer;
+    animation: rotation 1s infinite linear;
+}
+
+.scissors:hover img {
+    cursor: pointer;
+    animation: rotation 1s infinite linear;
+}
+
+.score_board {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 500px;
+}
+
+.scoreBoard {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 0px 250px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+/* MENU */
+
+.howManyRounds {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.allTheRounds {
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+span {
+    background-color: hsl(0, 59%, 25%);
+    padding: 13px 20px;
+}
